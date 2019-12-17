@@ -1,0 +1,168 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background: #444;
+    color: #fff;
+    height: 100vh;
+    margin: 0;
+    font-family: 'segoe UI', tahoma, geneva, verdana, sans-serif;
+    line-height: 1.5;
+  }
+  
+  body.news {
+    background: url(background1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  body.news .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(68, 68, 68, 0.9);
+    z-index: -1;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+    font-size: 6rem;
+  }
+  
+  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba #494949, 0.5;
+  }
+  
+  a {
+    color: #0c0c0c;
+    text-decoration: none;
+  }
+  
+  header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+  
+  .text-secondary {
+    color: yellow;
+  }
+  
+  main {
+    padding: 4rem;
+    height: 100%;
+  }
+  
+  main#home {
+    overflow: hidden;
+  }
+  
+  main#home h1 {
+    margin-top: 20vh;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+    visibility: hidden;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+  }
+   
+  .nav ul {
+    list-style: none;
+   /* background-color: #444;*/
+    text-align: left;
+    padding: 5 5 5 10;
+    margin: 0;
+  }
+  .nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+  }
+   
+  .nav a {
+    text-decoration: none;
+    color: #747171;
+    display: block;
+    transition: .6s;
+  }
+   
+  .nav a:hover {
+    color: yellow;
+  }
+   
+  .nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+  }
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    width: 100%;
+    background-color: #444;
+    color: #747171;
+    text-align: center;
+  }
+
+
+   
+  @media screen and (min-width: 600px) {
+    .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+    }
+   
+    /* Option 1 - Display Inline */
+    .nav li {
+      display: inline-block;
+      margin-right: -4px;
+    }
+ }
+
+ @media screen and (max-width: 600px) {
+
+  h1, h2, h3 {
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+    font-size: 3rem;
+  }
+  
+  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+    margin-bottom: 52rem;
+    padding: 1rem;
+    background: rgba #494949, 0.5;
+  }
+  
+
+
+ }
