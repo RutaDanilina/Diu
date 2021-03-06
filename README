@@ -1,0 +1,15 @@
+Sutvarkyti:
+
+1. meniu navigacija!! veikia tik is 'home' eiti i 'about me' ir is 'home' i 'contact me'
+
+2. Home:
+	-plancetes dydis netvarkingas
+
+3. About me : 
+	-paddingai su tekstu, png'sais ir headingiukais. 
+	-!!!!gramatines klaidos!!!!
+	-visiska paleva plancetes mediaquery ir uzlipa mobile versijoj meniu ant kontento.
+
+4. Contact me:
+	-name ir email inputu backgroundai
+	
